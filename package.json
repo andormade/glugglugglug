@@ -1,0 +1,30 @@
+{
+  "name": "glugglugglug",
+  "version": "0.0.1",
+  "description": "2D WebGL library",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "npm run build",
+    "prebuild": "prettier --write './src/**/*.ts'",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andormade/glugglug.git"
+  },
+  "keywords": [
+    "webgl"
+  ],
+  "author": "Andor Polgar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andormade/glugglug/issues"
+  },
+  "homepage": "https://github.com/andormade/glugglug#readme",
+  "devDependencies": {
+    "prettier": "^2.2.1",
+    "typescript": "^4.1.5"
+  }
+}
